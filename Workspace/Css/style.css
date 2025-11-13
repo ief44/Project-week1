@@ -281,3 +281,8 @@ footer {
     height: 20px;
     margin-left: -380px  ;
 }
+
+.title-bedrijf {
+    display: flex;
+    justify-content: center;
+}
