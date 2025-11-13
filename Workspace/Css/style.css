@@ -1,6 +1,6 @@
 body {
     font-family: "Roboto";
-    margin: 0px;
+    margin: 0%
 }
 
 li {
@@ -34,21 +34,25 @@ footer {
 
 .roc-image {
     display: flex;
-    height: 9vh;
-    padding: 0px 100px;
-    margin-bottom: -200px;
+    height: 10vh;
+    width: 10vw;
+    margin-top: 8vh;
 }
 
 .upper-header {
     display: flex;
     height: 9vh;
+    width: 100%;
     background-color: #f0f0f7;
     align-items: center;
+    justify-content: space-between;
 }
 
 .lower-header {
     display: flex;
     height: 9vh;
+    width: 100%;
+    justify-content: space-between;
     background-color: #ffffff;
     align-items: center;
 }
@@ -64,9 +68,13 @@ footer {
     font-weight: 700;
 }
 
+.links-header li {
+    margin-left: 1vw;
+}
+
 .image-coding-class {
-    width: 100vw;
-    border-bottom-right-radius: 250px;
+    width: 100%;
+    border-bottom-right-radius: 20%
 }
 
 .software-developer {
@@ -85,18 +93,21 @@ footer {
 .block {
     font-weight: 300;
     font-size: 1vw;
-    width: 20vw;
-    height: 34vh;
     padding: 2vh;
+    width: 20vw;
+    height: auto;
     outline: solid 2px black;
     border-radius: 20px;
+}
+
+.about p {
+    font-size: 2vh;
 }
 
 .button {
     display: flex;
     background-color: #402e56;
     color: white;
-    justify-content: flex-end;
     font-size: 1vw;
     font-weight: 500;
     padding: 1vh 1vw;
@@ -104,14 +115,15 @@ footer {
     margin-left: 1vw;
 }
 
-.bedrijf {
+.buttons {
     display: flex;
-    margin-left: 60vw;
 }
 
 .text-blocks {
     display: flex;
+    justify-content: space-around;
     gap: 100px
+    
 }
 
 .aanpassing p {
@@ -119,8 +131,8 @@ footer {
 }
 
 .aanpassing img {
-    height: 15px;
-    margin-right: 5px;
+    height: 2vh;
+    margin-right: 1vw;
 }
 
 .aanpassing {
@@ -168,15 +180,10 @@ footer {
     color: #402e56;
 }
 
-.alle-vakkenstudie h1 {
-    margin-top: 50px;
-    font-size: 60px;
-}
-
 .alle-vakkenstudie p {
-    font-size: 20px;
-    max-width: 1000px;
-    margin-top: 10px;
+    font-size: 3vh;
+    max-width: 70vw;
+    margin-top: 1vh;
 }
 
 .alle-vakken {
@@ -189,23 +196,21 @@ footer {
     justify-content: space-between;
 }
 
-.imagetechno img {
-    height: 300px;
+.service-and-contact {
+    font-size: 2vw;
 }
 
-.alle-vakken h1 {
-    margin-top: 50px;
-    font-size: 60px;
+.imagetechno img {
+    height: 20vw;
 }
 
 .alle-vakken h2 {
-    margin-top: 50px;
-    font-size: 60px;
+    font-size: 3vw;
 }
 
 .alle-vakken p {
-    font-size: 20px;
-    max-width: 500px;
+    font-size: 3vh;
+    max-width: 30vw;
 }
 
 .alle-progammeertalen {
@@ -227,6 +232,7 @@ footer {
 .vak {
     display: flex;
     justify-content: space-around;
+    margin-top: 10vh;
 }
 
 .generiek {
@@ -235,7 +241,9 @@ footer {
 }
 
 .generiek h1 {
-    font-size: 90px;
+    font-size: 5vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
 }
 
 .kernmodules {
@@ -245,11 +253,13 @@ footer {
 }
 
 .kernmodules h1 {
-    font-size: 90px;
+    font-size: 5vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
 }
 
 .oop-fe-be h2 {
-    font-size: 60px;
+    font-size: 3vw;
     margin: 0px;
 }
 
@@ -261,44 +271,51 @@ footer {
     background-color: #f0f0f7;
     border: solid 7px #98d3ea;
     border-radius: 50px;
-    margin-top: 100px;
-    height: 600px;
-    width: 500px;
+    margin-top: 15vh;
+    height: 60vh;
+    width: 30vw;
 }
 
 .background div {
-    margin: 50px;
+    margin: 5vh;
 }
 
 .input {
-    width: 300px;
-    height: 40px;
+    width: 22vw;
+    height: 5vh;
+    font-size: 2vh;
     border-radius: 13px;
-    border: solid 2px #98d3ea;
+    border: solid 4px #98d3ea;
     padding-left: 15px;
 }
 
 .vak h2 {
-    margin-top: 20px;
+    margin-top: 2vh;
+}
+
+.vak h3 {
+    font-size: 3vh;
 }
 
 .studieinfocontainer {
     display: flex;
     justify-content: center;
+    margin: 3vh;
 }
 
-.studieinfo {
-    max-width: 1000px;
+.studieinfocontainer h1 {
+    font-size: 5vw;
 }
 
 .meld-aan {
     display: flex;
-    width: 100px;
-    height: 50px;
+    width: 8vw;
+    height: 5vh;
+    font-size: 2vh;
     border-radius: 15px;
     align-items: center;
     justify-content: center;
-    border: solid 2px #98d3ea;
+    border: solid 4px #98d3ea;
     background-color: #ffffff;
 }
 
@@ -309,25 +326,29 @@ footer {
 
 .searchcontainer {
     display: flex;
-    margin-left: 39vw;
+    justify-content: flex-end;
 }
 
 .searchbar {
     border: solid 2px #98d3ea;
     height: 5vh;
     font-size: 1vw;
-    width: 20vw;
-    border-radius: 100px;
-    padding-left: 120px;
+    width: 25vw;
+    border-radius: 5vw;
+    padding-left: 2vw;
 }
 
 .mag {
     display: flex;
     height: 3vh;
-    margin-left: -19vw  ;
+    margin-left: -19vw;
 }
 
 .title-bedrijf {
     display: flex;
     justify-content: center;
+}
+
+.title-bedrijf h1 {
+    font-size: 5vw;
 }
