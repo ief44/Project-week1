@@ -1,0 +1,277 @@
+body {
+    font-family: "Roboto";
+    margin: 0px;
+}
+
+li {
+    all: unset;
+}
+
+ul {
+    display: flex;
+    gap: 25px;
+}
+
+a {
+    text-decoration: unset;
+}
+
+main {
+    margin: 0px 40px;
+}
+
+h1 {
+    margin: 0px;
+}
+
+p {
+    margin: 0px;
+}
+
+footer {
+    margin: 0px;
+}
+
+.roc-image {
+    display: flex;
+    height: 100px;
+    padding: 0px 25px;
+    margin: 75px 0px 0px 25px;
+}
+
+.upper-header {
+    display: flex;
+    height: 75px;
+    background-color: #f0f0f7;
+    align-items: center;
+}
+
+.lower-header {
+    display: flex;
+    height: 75px;
+    background-color: #ffffff;
+    align-items: center;
+}
+
+.links-header {
+    display: flex;
+    margin-left: 200px;
+}
+
+.link {
+    color: #402e56;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.image-coding-class {
+    margin-left: -40px;
+    width: 1521px;
+    border-bottom-right-radius: 100px;
+}
+
+.software-developer {
+    font-size: 60px;
+    color: #402e56;
+    font-weight: 800;
+    margin: 50px 0px;
+}
+
+.software-developer-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.block {
+    font-weight: 300;
+    font-size: 18px;
+    width: 325px;
+    height: 400px;
+    padding: 25px;
+    outline: solid 2px black;
+    border-radius: 20px;
+}
+
+.button {
+    display: flex;
+    background-color: #402e56;
+    color: white;
+    justify-content: flex-end;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 15px;
+    border-radius: 50px;
+    margin-left: 20px;
+}
+
+.bedrijf {
+    display: flex;
+    margin-left: 820px;
+}
+
+.text-blocks {
+    display: flex;
+    gap: 100px
+}
+
+.aanpassing p {
+    font-size: 30px;
+}
+
+.aanpassing img {
+    height: 15px;
+    margin-right: 5px;
+}
+
+.aanpassing {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.toelatingseisen p {
+    font-size: 30px;
+}
+
+.footer-bar {
+    display: flex;
+    margin-top: 100px;
+    background-color: #98d3ea;
+    width: auto;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-info {
+    display: flex;
+    font-size: 30px;
+    gap: 300px;
+}
+
+.footer-info li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #402e56;
+    font-weight: 550;
+}
+
+.alle-vakken {
+    color: #402e56;
+}
+
+.alle-vakken h1 {
+    margin-top: 50px;
+    font-size: 60px;
+}
+
+.alle-vakken h2 {
+    margin-top: 50px;
+    font-size: 60px;
+}
+
+.alle-vakken p {
+    font-size: 20px;
+    max-width: 500px;
+}
+
+.alle-progammeertalen {
+    display: flex;
+    color: #402e56;
+    justify-content: space-around;
+}
+
+.alle-progammeertalen h1 {
+    margin-top: 50px;
+    font-size: 80px;
+}
+
+.alle-progammeertalen p {
+    font-size: 20px;
+    max-width: 600px;
+}
+
+.vak {
+    display: flex;
+    justify-content: space-around;
+}
+
+.generiek {
+    display: flex;
+    justify-content: center;
+}
+
+.generiek h1 {
+    font-size: 90px;
+}
+
+.kernmodules {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.kernmodules h1 {
+    font-size: 90px;
+}
+
+.oop-fe-be h2 {
+    font-size: 60px;
+    margin: 0px;
+}
+
+.background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f0f0f7;
+    border: solid 7px #98d3ea;
+    border-radius: 50px;
+    margin-top: 100px;
+    height: 600px;
+    width: 500px;
+}
+
+.background div {
+    margin: 50px;
+}
+
+.input {
+    width: 300px;
+    height: 40px;
+    border-radius: 13px;
+    border: solid 2px #98d3ea;
+    padding-left: 15px;
+}
+
+.meld-aan {
+    display: flex;
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    border: solid 2px #98d3ea;
+    background-color: #ffffff;
+}
+
+.main-back-aan {
+    display: flex;
+    justify-content: center;
+}
+
+.searchcontainer {
+    display: flex;
+}
+
+.searchbar {
+    border: solid 2px #98d3ea;
+    height: 40px;
+    width: 400px;
+    border-radius: 15px;
+    margin-left: 490px;
+    padding: 0px 15px;
+}
