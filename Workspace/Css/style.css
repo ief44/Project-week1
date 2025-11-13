@@ -273,5 +273,11 @@ footer {
     width: 400px;
     border-radius: 15px;
     margin-left: 490px;
-    padding: 0px 15px;
+    padding-left: 50px;
+}
+
+.mag {
+    display: flex;
+    height: 20px;
+    margin-left: -380px  ;
 }
